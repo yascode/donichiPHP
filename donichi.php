@@ -31,4 +31,7 @@ class Print_Calendar{
 		if($count!=0){
 			for($i=0; $i<$count; $i++){
 				print "<td></td>";
-}}}}
+			}
+		}
+	}
+}
