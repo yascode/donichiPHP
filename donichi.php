@@ -25,13 +25,3 @@ for($i=0;$i<date("t");$i++){
 	}
 }
 print "</table>";
-
-class Print_Calendar{
-	function space_cell($count){
-		if($count!=0){
-			for($i=0; $i<$count; $i++){
-				print "<td></td>";
-			}
-		}
-	}
-}
