@@ -1,5 +1,5 @@
-<ul class="nav nav-pills">
-	<li class='<?php echo Arr::get($subnav, "index" ); ?>'><?php echo Html::anchor('tweet/index','Index');?></li>
-
-</ul>
-<p>Index</p>
+<div class="row">
+	<div class="col-md-8">
+		<img class="img-responsive img-rounded" src="/assets/img/photo..png" alt="">
+	</div>
+</div>
