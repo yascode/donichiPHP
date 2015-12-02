@@ -21,7 +21,7 @@
 				<ul class="nav navbar-nav">
 					<li><a href="/">TopPage</a></li>
 					<li><a href="#">Request</a></li>
-					<li><a href="#">About Us</a></li>
+					<li><a href="/tweet/about">About Us</a></li>
 				</ul>
 			</div>
 		</div>
