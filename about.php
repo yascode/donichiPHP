@@ -1,5 +1,5 @@
 <div class="row">
-        <h3><?php echo $title: ?>とは？</h3>
+        <h3><?php echo $title; ?>とは？</h3>
         <p>社内情報連絡共有サイトです。</p>
         <h3>管理者</h3>
         <p>総務課が運用管理を行います。</p>
