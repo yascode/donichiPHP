@@ -13,7 +13,7 @@
 	<nav class="navbar navbar-inverse navbar-fixed-top" roll="navigation">
 		<div class="navbar-header">
 			<a class="navbar-brand" href="/">
-				<img src="/assets/img/logo01.jpg" alt="">
+				<img src="/assets/img/logo01.png" alt="">
 			</a>
 		</div>
 		<div class="container">
