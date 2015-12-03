@@ -2,6 +2,5 @@
 <br>
 
 <?php echo render('request/_form'); ?>
-<p>
-	<?php echo Html::anchor('request/view/'.$request->id, 'View'); ?> |
+<p>|
 	<?php echo Html::anchor('request', 'Back'); ?></p>
