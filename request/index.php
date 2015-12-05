@@ -24,7 +24,7 @@
 		<?php foreach ($requests as $item): ?>
 		<div class="col-md-4">
 			<h3><?php echo substr($item->body, 0, 36); ?></h3>
-			<p>【投稿日時】<?php echo date("Y-m-d H:i", $item->created at); ?></p>
+			<p>【投稿日時】<?php echo date("Y-m-d H:i:s", $item->created at); ?></p>
 			<p>【IP】<?php echo $item->ip; ?></p>
 			<p><?php echo substr($item->body, 0, 240); php?></p>
 			<?php echo Html::anchor('request/edit/', $item->id,'<i class="icon-wrench"></i>Edit', array('class' => 'btn btn-default btn-sm')); ?>
