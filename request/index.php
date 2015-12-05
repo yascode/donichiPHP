@@ -27,8 +27,8 @@
 			<p>【投稿日時】<?php echo date("Y-m-d H:i:s", $item->created_at); ?></p>
 			<p>【IP】<?php echo $item->ip; ?></p>
 			<p><?php echo substr($item->body,0,240); ?></p>
-			<?php echo Html::anchor('request/edit/', $item->id,'<i class="icon-wrench"></i>Edit', array('class' => 'btn btn-default btn-sm')); ?>
-			<?php echo Html::anchor('request /delete/'.$item->id, '<i class="icon-trash icon-white"></i> Delete', array('class' => 'btn btn-sm btn-danger', 'onclick' => "return confrim('このデータを削除します。よろしいですか？')")); ?>
+			<?php echo Html::anchor('request/edit/' .$item->id,'<i class="icon-wrench"></i> Edit', array('class' => 'btn btn-default btn-sm')); ?>
+			<?php echo Html::anchor('request/delete/'.$item->id, '<i class="icon-trash icon-white"></i> Delete', array('class' => 'btn btn-sm btn-danger', 'onclick' => "return confrim('このデータを削除します。よろしいですか？')")); ?>
 		</div>
 		<?php endforeach; ?>
 	</div>
